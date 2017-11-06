@@ -1,9 +1,27 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: $color-body;
+  //background-color: $color-body;
   //overflow-x: hidden;
+  font-size:  $fs-base;
 }
 section {
   padding: 100px 0;
 }
 
+h1 {
+
+}
+h2 {
+  font-size: $fs-h2;
+  text-transform: uppercase;
+}
+h3 {
+
+}
+
+h4 {
+  font-size: $fs-h4;
+  text-transform: uppercase;
+  font-weight:bold ;
+
+}
