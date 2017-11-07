@@ -1,5 +1,13 @@
 .ourclass {
+  color: $color-text-ourclass;
+  .col-lg-6 {
+    margin-bottom: 25px;
+  }
+  .row {
+    margin-top: 75px;
+  }
   .ourclass-block {
+
     .ourclass-block-img {
       width: 270px;
       height: 300px;
@@ -12,10 +20,21 @@
         height: 270px;
         //overflow: hidden;
         position: relative;
-        left: -155px;
+
         height: 100%;
       }
-
+      .ourclass-block-img-1 {
+        left: -155px;
+      }
+      .ourclass-block-img-2 {
+        left: -95px;
+      }
+      .ourclass-block-img-3 {
+        left: -95px;
+      }
+      .ourclass-block-img-4 {
+        left: -30px;
+      }
     }
     .ourclass-block-content {
       padding: 25px 30px;
@@ -23,6 +42,10 @@
       float: right;
       //margin-right: -15px;
       max-height: 300px;
+      p {
+        margin-bottom: 10px;
+        line-height: 28px;
+      }
     }
   }
 }
