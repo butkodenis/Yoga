@@ -9,6 +9,9 @@ section {
 }
 
 h1 {
+  font-size: $fs-h1;
+  font-weight: bold;
+  text-transform: uppercase;
 
 }
 h2 {
@@ -36,7 +39,7 @@ span {
   font-family: FreestyleScript;
   font-size: 30px;
   text-align: center;
-  text-transform: capitalize;
+
   margin: 0 auto;
   display: block;
 }

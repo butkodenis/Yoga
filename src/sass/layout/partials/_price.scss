@@ -1,13 +1,13 @@
 .price {
     background-image: url("/images/bg3.png");
-    background-position: 200% 0%;
+    background-position: 428% 20%;
     background-repeat: no-repeat ;
-;
+
   .price-blick {
       height: 493px;
-    -moz-border-radius: 10px;
+    -moz-border-radius:  10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px; /* border radius */
+    border-radius: 0 0 10px 10px; /* border radius */
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box; /* prevents bg color from leaking outside the border */
