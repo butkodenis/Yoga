@@ -77,9 +77,10 @@ jQuery(document).ready(function ($) {
     if ($('.owl-carousel').length > 0) {
         (function () {
             //слайдер с коментариями
-            $('.slide-coment').owlCarousel({
+            $('.carusel_1').owlCarousel({
                 loop:true,
                 // margin:10,
+                navText : ["",""],
                 autoplay: true,
                 nav:true,
                 center: true,
