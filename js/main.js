@@ -15,36 +15,36 @@ jQuery(document).ready(function ($) {
 
     // скрытый фильтр
 
-    $(".hide-menu").click( function () {
-        $(".portfolio-filtr").slideToggle("slow");
-        $("#filtr-all").animate({
-            opacity: '0.99'
-        }, 1300);
-        $("#filtr-1").animate({
-            opacity: '0.99'
-        }, 1600);
-        $("#filtr-2").animate({
-            opacity: '0.99'
-        }, 2000);
-        $("#filtr-3").animate({
-            opacity: '0.99'
-        }, 2400);
-        $("#filtr-4").animate({
-            opacity: '0.99'
-        }, 2800);
-        $("#filtr-5").animate({
-            opacity: '0.99'
-        }, 3200);
-
-    });
+    // $(".hide-menu").click( function () {
+    //     $(".portfolio-filtr").slideToggle("slow");
+    //     $("#filtr-all").animate({
+    //         opacity: '0.99'
+    //     }, 1300);
+    //     $("#filtr-1").animate({
+    //         opacity: '0.99'
+    //     }, 1600);
+    //     $("#filtr-2").animate({
+    //         opacity: '0.99'
+    //     }, 2000);
+    //     $("#filtr-3").animate({
+    //         opacity: '0.99'
+    //     }, 2400);
+    //     $("#filtr-4").animate({
+    //         opacity: '0.99'
+    //     }, 2800);
+    //     $("#filtr-5").animate({
+    //         opacity: '0.99'
+    //     }, 3200);
+    //
+    // });
 
     // фильтрация блоков портфолио  ( незабыть .mix { display: none;})
 
-    $(function(){
-        $("#filter-block").mixItUp({
-
-        });
-    });
+    // $(function(){
+    //     $("#filter-block").mixItUp({
+    //
+    //     });
+    // });
 
         //   show more
 
@@ -60,14 +60,14 @@ jQuery(document).ready(function ($) {
 
 
         // изминение при прокрутке nav
-    if ($('#contact').length > 0) {
-        (function () {
-            $(window).on("scroll", function() {
-                if ($(window).scrollTop() > 50) $('.navbar').addClass('fix') && $('#logo').attr("src", 'images/logo.svg' );
-                else $('.navbar').removeClass('fix') && $('#logo').attr("src", 'images/logo.png' ) ;
-            });
-        })();
-    }
+    // if ($('#contact').length > 0) {
+    //     (function () {
+    //         $(window).on("scroll", function() {
+    //             if ($(window).scrollTop() > 50) $('.navbar').addClass('fix') && $('#logo').attr("src", 'images/logo.svg' );
+    //             else $('.navbar').removeClass('fix') && $('#logo').attr("src", 'images/logo.png' ) ;
+    //         });
+    //     })();
+    // }
 
 
 
