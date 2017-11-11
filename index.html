@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/clear.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/validetta.min.css" media="screen">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+S  ans:400,700" rel="stylesheet">
 
 
@@ -68,22 +71,24 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <form>
+                <form id="form"  action="#">
                     <p>trial class </p>
-                    <input type="text" placeholder="Enter your name">
-                    <input type="tel" placeholder="Enter your phone">
+                    <input type="text" placeholder="Enter your name" data-validetta="required,minLength[2]" />
+                    <input type="tel" placeholder="Enter your phone" data-validetta="number,required" />
+
+
                     <div class="select">
-                        <select name="class"  >
-                            <option value="">Please select an option</option>
-                            <option value="Yoga For Health">Yoga For Health</option>
-                            <option value="Yoga For Lose Weight">Yoga For Lose Weight</option>
-                            <option value="Yoga For Children">Yoga For Children</option>
-                            <option value="Yoga For Elderly">Yoga For Elderly</option>
+                        <select name="exm-sb"   data-validetta="required">
+                            <option  value="" disabled selected class="plaseholder">Please select an option</option>
+                            <option value="1">Yoga For Health</option>
+                            <option value="2">Yoga For Lose Weight</option>
+                            <option value="3">Yoga For Children</option>
+                            <option value="4">Yoga For Elderly</option>
 
                         </select>
                     </div>
 
-                    <input type="submit">
+                    <input type="submit" value="Try it">
 
                 </form>
             </div>
@@ -240,26 +245,112 @@
 </section>
 <section class="aboutus">
     <div class="container">
+        <!--<div class="row">-->
+            <!--<div class="col-lg-6">-->
+                <!--<div class="aboutus-content">-->
+                    <!--<h2>about us</h2>-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-lg-6">-->
+
+
+                <!--<div class="owl-carousel carusel_1">-->
+                    <!--<div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>-->
+                    <!--<div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>-->
+                    <!--<div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>-->
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-lg-6">-->
+                <!--<div class="block-text">-->
+                    <!--<div class="carousel-text slider-for">-->
+                        <!--<div>-->
+                            <!--<h2>about us</h2>-->
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>-->
+
+                        <!--</div>-->
+                        <!--<div>-->
+                            <!--<h2>about us2</h2>-->
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>-->
+
+                        <!--</div>-->
+                        <!--<div>-->
+                            <!--<h2>about us3</h2>-->
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>-->
+
+                        <!--</div>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-lg-6">-->
+                <!--<div class="block-media">-->
+                    <!--<div class="carousel-images slider-nav">-->
+                        <!--<div>-->
+                            <!--<img src="/images/carusel1.png">-->
+                        <!--</div>-->
+                        <!--<div>-->
+                            <!--<img src="/images/carusel1.png">-->
+                        <!--</div>-->
+                        <!--<div>-->
+                            <!--<img src="/images/carusel1.png">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <!--</div>-->
         <div class="row">
             <div class="col-lg-6">
-                <div class="aboutus-content">
-                    <h2>about us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
-                </div>
+                <div class="block-text">
+                    <div class="carousel-text slider-for">
+                        <div>
+                            <h2>about us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+
+                        </div>
+                        <div>
+                            <h2>about us2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+
+                        </div>
+                        <div>
+                            <h2>about us3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+
+                        </div>
+
+                    </div>
+                </div><!-- /.block-text -->
+
+
+
+
             </div>
             <div class="col-lg-6">
+                <div class="block-media">
+                    <div class="carousel-images slider-nav">
+                        <div>
+                            <img src="/images/carusel1.png">
+                        </div>
+                        <div>
+                            <img src="/images/carusel1.png">
+                        </div>
+                        <div>
+                            <img src="/images/carusel1.png">
+                        </div>
+                    </div>
+                </div><!-- /.block-media -->
 
-
-                <div class="owl-carousel carusel_1">
-                    <div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>
-                    <div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>
-                    <div class="carusel_1-slide"> <img src="/images/carusel1.png"> </div>
-
-
-
-                </div>
             </div>
+
         </div>
+
     </div>
 </section>
 <section class="features">
@@ -384,7 +475,68 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
+                <div class="block-text">
+                    <div class="carousel-text slider-for2">
+                        <div>
+                            <img src="/images/ico_bg.png">
 
+                            <div class="block-text_line">
+
+                            </div>
+                            <blockquote>
+                                <p class="span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="trainer">Trainer</p>
+                                <p class="trainer-name"> Laura Shepard</p>
+                            </blockquote>
+
+
+                        </div>
+                        <div>
+        <span class="title">
+          Sed ut perspiciatis unde omnis iste natus error
+        </span>
+                            <p class="headline">
+                                Sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                        <div>
+        <span class="title">
+          Nemo enim ipsam
+        </span>
+                            <p class="headline">
+                                Quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                            </p>
+                        </div>
+                        <div>
+        <span class="title">
+          Non provident, similique sunt in culpa
+        </span>
+                            <p class="headline">
+                                Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- /.block-text -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-3 col-lg-3">
+                <div class="block-media">
+                    <div class="carousel-images slider-nav2">
+                        <div>
+                            <img src="/images/ico_sm.png" alt="1">
+                            <h4>Sra tailor</h4>
+                        </div>
+                        <div>
+                            <img src="/images/ico_sm.png" alt="1">
+                        </div>
+                        <div>
+                            <img src="/images/ico_sm.png" alt="1">
+                        </div>
+
+                    </div>
+                </div><!-- /.block-media -->
             </div>
         </div>
     </div>
@@ -465,11 +617,14 @@
 </section>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 
-<script src="js/owl.carousel.min.js"></script>
-<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="js/owl.carousel.min.js"></script>-->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script src="js/validetta.min.js"></script>
 <script src="js/main.js"></script>
 
 

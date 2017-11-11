@@ -6,6 +6,8 @@
   form {
     width: 300px;
     height: 393px;
+    float: right;
+    margin-right: 30px;
     background-color: $white;
     padding: 25px 40px 40px 30px;
     -moz-border-radius: 20px;
@@ -37,6 +39,7 @@
       margin: 0 0 20px 0;
     }
     select {
+      color: #888888;
       margin: 0 0 30px 0;
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -46,7 +49,20 @@
       box-shadow: none;
       border: 0 !important;
       //background: #2c3e50;
-      background-image: none;
+      background-image: url("/images/Rectangle-2.png");
+      background-position: 95% center;
+      background-repeat: no-repeat;
+      .plaseholder {
+        color: #a8a8a8;
+      }
+
+
+    }
+    input[type=submit]{
+      width: 173px;
+      float: right;
+      margin-right: -5px;
+      background-color: #5b6beb; /* layer fill content */
     }
     p {
       color: #5363db; /* text color */

@@ -1,7 +1,10 @@
 $.noConflict();
 jQuery(document).ready(function ($) {
 
+    $("#form").validetta({
 
+
+    });
     // плавная прокрутка
     $('a[href^="#"]').click(function(){
 //Сохраняем значение атрибута href в переменной:
@@ -9,7 +12,39 @@ jQuery(document).ready(function ($) {
         $('html, body').animate({scrollTop: $(target).offset().top}, 1500);
         return false;
     });
+    // слайдер slick
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav',
+        autoplay: true
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
 
+    });
+    $('.slider-for2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav2'
+    });
+    $('.slider-nav2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for2',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
 
 
 

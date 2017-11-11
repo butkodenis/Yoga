@@ -59,3 +59,17 @@ span {
   line-height: 30px;
   font-size: 16px;
 }
+input[ type=submit] {
+  text-align: center;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border: none;
+  border-radius: 20px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #5b6beb; /* layer fill content */
+  color: $white;
+  font-size: 18px;
+  font-weight: bold;
+}
