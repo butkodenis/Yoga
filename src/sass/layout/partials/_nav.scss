@@ -35,10 +35,10 @@ nav {
         font-weight: bold;
         color: #555;
       }
-      //:hover {
-      //  color: #5363db;
-      //  //border-bottom: 1px solid #5363db;
-      //}
+      :hover {
+         color: #5363db;
+         //border-bottom: 1px solid #5363db;
+       }
 
       .defis {
         color: white;
@@ -77,8 +77,11 @@ nav {
 
   }
 }
-li:hover + p.defis {
+a:hover + .defis {
   border-bottom: 1px solid #5363db;
+  color: #5363db;
+}
+a:hover + a{
   color: #5363db;
 }
 //p.defis:hover  ul li {
@@ -86,8 +89,9 @@ li:hover + p.defis {
 //  color: #5363db;
 //}
 p.defis:hover {
-  color: white;
+  //color: white;
   height: 5px;
+  color: #5363db;
   width: 30px;
   border-bottom: 1px solid white;
   text-align: center;

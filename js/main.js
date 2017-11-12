@@ -15,9 +15,9 @@ jQuery(document).ready(function ($) {
     // {
     //     $(".defis"). css("color", "red");
     // });
-    $("#link").hover(function () {
-        $(this).next(".defis"). toggleClass("defis_active");
-    });
+    // $("#link").hover(function () {
+    //     $(this).next(".defis"). toggleClass("defis_active");
+    // });
 
     // $("#link").mousemove(function(e)
     // {
