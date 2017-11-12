@@ -15,10 +15,23 @@ jQuery(document).ready(function ($) {
     // {
     //     $(".defis"). css("color", "red");
     // });
-    // $("#link").hover(function () {
-    //     $(this).next(".defis"). toggleClass("defis_active");
+    // $("#basic").hover(function () {
+    //     $("h2"). toggleClass(".h2");
     // });
+    $("#basic").hover(function(){
+        $("h2.h2").toggleClass("basic");
 
+
+    });
+
+    $("#pro").hover(function(){
+        $("h2.h23").toggleClass("basic");
+
+    });
+    $("#premium").hover(function(){
+        $("h2.h24").toggleClass("basic");
+
+    });
     // $("#link").mousemove(function(e)
     // {
     //     $(".defis").css("color", "#fff");
