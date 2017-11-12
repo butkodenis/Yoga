@@ -1,6 +1,11 @@
 nav {
-  //background-color: #1d1e1f;
-
+  background-color: $white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  //z-index: 1030;
+  z-index: 9999;
   height: 100px;
   -moz-box-shadow: 2px 2px 7px rgba(0,0,0,.15);
   -webkit-box-shadow: 2px 2px 7px rgba(0,0,0,.15);
@@ -30,10 +35,10 @@ nav {
         font-weight: bold;
         color: #555;
       }
-      :hover {
-        color: #5363db;
-        //border-bottom: 1px solid #5363db;
-      }
+      //:hover {
+      //  color: #5363db;
+      //  //border-bottom: 1px solid #5363db;
+      //}
 
       .defis {
         color: white;
@@ -46,9 +51,18 @@ nav {
         //  border-bottom: 1px solid #5363db;
         //}
       }
-      :hover   {
-        color: #5363db;
+      .defis_active {
+        color: white;
+        height: 5px;
+        width: 30px;
+        border-bottom: 1px solid white;
+        text-align: center;
+        margin: 0 auto;
+        border-bottom: 1px solid #5363db;
       }
+      //:hover   {
+      //  color: #5363db;
+      //}
 
 
     }
@@ -63,16 +77,19 @@ nav {
 
   }
 }
-//li:hover p.defis {
-//  border-bottom: 1px solid #5363db;
-//  color: #5363db;
-//}
+li:hover + p.defis {
+  border-bottom: 1px solid #5363db;
+  color: #5363db;
+}
 //p.defis:hover  ul li {
 //  //border-bottom: 1px solid #5363db;
 //  color: #5363db;
 //}
-li:hover h2 {
-  border-bottom: 1px solid #5363db;
-  color: #5363db;
-  font-size: 100px;
+p.defis:hover {
+  color: white;
+  height: 5px;
+  width: 30px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: 0 auto;
 }

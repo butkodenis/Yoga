@@ -61,12 +61,12 @@
     }
     & > .slick-prev {
 
-      z-index: 9999;
+      z-index: 9990;
       left:-25px;
       background-image: url("/images/prev.png");
     }
      & > .slick-next {
-       z-index: 9999;
+       z-index: 9990;
       right: -25px;
       background-image: url("/images/next.png");
 
