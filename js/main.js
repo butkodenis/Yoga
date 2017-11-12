@@ -5,19 +5,7 @@ jQuery(document).ready(function ($) {
 
 
     });
-    // $( "#link" ).hover(
-    //     function() {
-    //         $(".defis" ).toggleClass( ".defis_active" ) ;
-    //     }
-    // );
 
-    // $("#link").mouseout(function(e)
-    // {
-    //     $(".defis"). css("color", "red");
-    // });
-    // $("#basic").hover(function () {
-    //     $("h2"). toggleClass(".h2");
-    // });
     $("#basic").hover(function(){
         $("h2.h2").toggleClass("basic");
 
@@ -32,10 +20,7 @@ jQuery(document).ready(function ($) {
         $("h2.h24").toggleClass("basic");
 
     });
-    // $("#link").mousemove(function(e)
-    // {
-    //     $(".defis").css("color", "#fff");
-    // });
+
 
     // плавная прокрутка
     $('a[href^="#"]').click(function(){

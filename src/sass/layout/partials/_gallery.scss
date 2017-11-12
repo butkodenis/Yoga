@@ -18,6 +18,34 @@
     //background-position: 35% 100%;
     overflow: hidden;
     position: relative;
+    .find {
+      display: none;
+      height: 350px;
+      position: absolute;
+      width: 100%;
+      //background-color: #00b3ee;
+
+      top: 0;
+      //background-image: url("/images/find.png") ;
+      background-repeat: no-repeat ;
+      background-position: center center ;
+      z-index: 100;
+      img {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 45%;
+        right: 42%;
+        opacity: 1;
+      }
+    }
+    .filter {
+      height: 350px;
+      z-index: 50;
+      width: 100%;
+      background-color: #00b3ee;
+      opacity: .7;
+    }
 
     .gallery-block_1-img,.gallery-block_2-img,.gallery-block_3-img,.gallery-block_4-img,
     .gallery-block_5-img,.gallery-block_6-img,.gallery-block_7-img,.gallery-block_8-img {
@@ -86,6 +114,10 @@
     //:hover .mask {
     //  opacity: 1;
     //}
+
+  }
+  .gallery-block:hover .find {
+    display: block;
 
   }
 

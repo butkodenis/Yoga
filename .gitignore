@@ -1,4 +1,0 @@
- $ cat .gitignore
-.idea\
-.sass-cache\
-srs\node_modules\
