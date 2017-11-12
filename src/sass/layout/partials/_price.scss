@@ -1,5 +1,5 @@
 .price {
-    background-image: url("/images/bg3.png");
+    background-image: url("../images/bg3.png");
     background-position: -158% 385%;
     //background-position: center right;
     background-repeat: no-repeat ;
@@ -44,7 +44,7 @@
       }
       :first-child {
         font-size: 30px;
-        margin: 30px 20px 0 30px;
+        margin: 30px 15px 0 20px;
 
 
 
@@ -63,11 +63,30 @@
 
 
       h4 {
+        display: inline-block;
         font-size: 18px;
         font-weight: normal;
         color: #555; /* text color */
         margin-bottom: 50px;
 
+      }
+      input[type="submit"] {
+        display: block;
+        width: 170px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border: none;
+        border-radius: 20px; /* border radius */
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box; /* prevents bg color from leaking outside the border */
+        background-color: #5b6beb; /* layer fill content */
+        color: $white;
+        font-size: 18px;
+        font-weight: bold;
       }
       button {
         display: block;
@@ -92,7 +111,7 @@
   }
   .block-text {
     height: 250px;
-    width: 1170px;
+    //width: 1170px;
     background-color: $white;
     //margin: 100px 0 100px 0;
     //background-color: #2c3e50;
@@ -116,7 +135,7 @@
       float: left;
     }
     blockquote {
-      width: 900px;
+      //width: 900px;
       margin: 12px  0 0 0;
       .span{
 

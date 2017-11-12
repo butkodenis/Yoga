@@ -1,14 +1,104 @@
 @media all and (max-width: 1200px) {
 
 }
+@media all and (max-width: 1024px) {
+  .ourclass .ourclass-block .ourclass-block-img {
+
+    width: 170px;
+
+  }
+  .price .price-blick .price-block_price {
+    padding: 30px 45px;
+
+  }
+  .price .price-blick .price-block_price :first-child {
+    margin: 30px 13px 0 13px;
+  }
+  .price .price-blick .price-content {
+    padding: 50px 42px;
+
+  }
+  .price .block-media .slick-dots {
+
+    left: 310%;
+
+  }
+
+
+}
 @media all and (max-width: 992px) {
+  .ourclass .ourclass-block .ourclass-block-img {
 
+    width: 270px;
 
+  }
+  .aboutus .slic {
+
+  }
+  .price .price-blick .price-block_price {
+    padding: 30px 15px;
+
+  }
+  .price .price-blick .price-content h4 {
+
+    font-size: 12px;
+
+    margin-bottom: 50px;
+  }
+  .price .price-blick .price-content {
+    padding: 50px 42px;
+
+  }
+  .price .price-blick .price-block_price h2 {
+
+    font-size: 65px;
+
+  }
+  .price .price-blick .price-block_price :last-child {
+    font-size: 16px;
+
+  }
+  .price .block-text blockquote:after {
+    content: "\201C";
+    color: #7a43b6;
+    font-size: 70px;
+    position: absolute;
+    right: 15px;
+    top: 69px;
+  }
+  .price .block-media img {
+
+    margin-left: 95px;
+
+  }
 }
 
 @media all and (max-width: 767px) {
+  .ourclass .ourclass-block .ourclass-block-img {
 
+    width: 130px;
+
+  }
+  .ourclass .ourclass-block .ourclass-block-content{
+    width: 290px;
+  }
+  .price .price-blick .price-block_price h2 {
+
+    font-size: 65px;
+
+  }
+  .price .price-blick .price-block_price :last-child {
+    font-size: 16px;
+
+  }
 }
 @media all and (max-width: 320px) {
+  .price .price-blick .price-block_price {
+    padding: 30px 60px;
+  }
+  .price .price-blick .price-content {
+    padding: 50px 87px;
+
+  }
 
 }
